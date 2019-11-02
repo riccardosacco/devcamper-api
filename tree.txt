@@ -1,0 +1,45 @@
+├── _data                       JSON Initial Data
+│   ├── bootcamps.json            Bootcamps
+│   ├── courses.json              Courses
+│   ├── reviews.json              Reviews
+│   └── users.json                Users
+├── config                      Config Directory
+│   ├── config.env                Environment Variables File (not committed to github)
+│   ├── config.env.env            Environment Variables Empty File
+│   └── db.js                     Mongoose DB Client
+├── controllers                 Controller Routes Directory
+│   ├── auth.js                   /auth
+│   ├── bootcamps.js              /bootcamps
+│   ├── courses.js                /courses
+│   ├── reviews.js                /reviews
+│   └── users.js                  /users
+├── middleware                  Middleware Functions
+│   ├── advancedResults.js        Filtering MongoDB query
+│   ├── async.js                  asyncHandler (to handle errors)
+│   ├── auth.js                   Auth verify middleware
+│   └── error.js                  Error middleware
+├── models                      Mongoose Models Directory
+│   ├── Bootcamp.js               Bootcamp Model
+│   ├── Course.js                 Course Model
+│   ├── Review.js                 Review Model
+│   └── User.js                   User Model
+├── package-lock.json           Package Lock (not committed to github)
+├── package.json                Package.json file for dependencies & scripts
+├── public                      Public HTTP Files
+│   ├── fonts                     Fonts for DocGen
+│   ├── index.html                DocGen Postman documentation
+│   └── uploads                   Uploads directory for images
+├── readme.md                   README file with repo usage
+├── routes                      Routes express routers
+│   ├── auth.js                   /auth
+│   ├── bootcamps.js              /bootcamps
+│   ├── courses.js                /courses
+│   ├── reviews.js                /reviews
+│   └── users.js                  /users
+├── seeder.js                   Database Seeder script (usage "node seeder"; "-d to delete"; "-i to insert")
+├── server.js                   Main entry point server.js
+├── tree.txt                    Folder file structure docs
+└── utils                       Utils functions
+    ├── errorResponse.js          ErrorResponse class
+    ├── geocoder.js               GeoCoder library
+    └── sendEmail.js              SendEmail Nodemailer library
